@@ -1,16 +1,19 @@
 import React from "react";
 
-function Nav() {
+function Nav(props) {
 	return (
 		<ul class="flex-row flex ">
 			<li>
-				<a href="#placeholder"> About Me</a>
+				<button onClick={() => props.setActive('about')}> About Me</button>
 			</li>
 			<li>
-				<a href="#placeholder"> Portfolio</a>
+				<button onClick={() => props.setActive('portfolio')}> Portfolio</button>
 			</li>
 			<li>
-				<a href="#placeholder"> Contact</a>
+				<button onClick={() => props.setActive('contact')}> Contact</button>
+			</li>
+			<li>
+				<button onClick={() => props.setActive('resume')}> Resume</button>
 			</li>
 		</ul>
 	);

@@ -1,11 +1,11 @@
-import React from "react";
 import Nav from "./nav";
 
-function Header() {
+function Header(props) {
+
 	return (
 		<div>
 			<h1> Jordan Pletzer</h1>
-			<Nav />
+			<Nav setActive = {props.setActive}/>
 		</div>
 	);
 }

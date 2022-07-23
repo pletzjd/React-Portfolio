@@ -6,7 +6,7 @@ function About() {
 		<div>
 			<h3>About Me</h3>
 
-			<img src={Jordan} alt="Jordan Pletzer photo" width={108} height={144}></img>
+			<img src={Jordan} alt="Jordan Pletzer photo" className="profile-image"></img>
 
 			<p>
 				I grew up in North Bay, On where I graduate from St. Joseph Scollard Hall Secondary School. I was

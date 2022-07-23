@@ -1,0 +1,191 @@
+/*Default styling*/
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.75rem;
+    line-height: 1.5;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  margin-bottom: 0.625rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+h1 {
+    font-size: 4rem;
+  }
+  
+  h2 {
+    font-size: 3.5rem;
+  }
+  
+  h3 {
+    font-size: 3rem;
+  }
+  
+  h4 {
+    font-size: 2.5rem;
+  }
+  
+  h5 {
+    font-size: 2rem;
+  }
+  
+  h6 {
+    font-size: 1.5rem;
+  }
+  
+  p {
+    margin-bottom: 1rem;
+  }
+
+/*Universal Selector*/
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+/*Variables*/
+:root{
+  --main-color: teal;
+
+}
+
+/*Element Selector*/
+
+a{
+  text-decoration: none;
+  color: black;
+  margin: 1rem;
+}
+
+div h3{
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-top: 2rem;
+}
+
+footer{
+  height: 4rem;
+}
+
+h3{
+  border-bottom: 0.5rem solid black;
+}
+
+header h1{
+  margin-left: 1rem;
+}
+
+main{
+    margin: 2rem 4rem 4rem;
+}
+
+p {
+  margin: 2rem;
+}
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+/*Classes*/
+
+.card{
+    display:flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    border: solid var(--main-color);
+    border-radius: 2rem;
+    margin: 3rem 1rem 3rem 1rem;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-header{
+  border: 0.4rem solid black;
+  padding: 0.5rem;
+  width: fit-content;
+  justify-self: center;
+  align-self: center;
+  border-radius: 2rem;
+  background-color: var(--main-color);
+}
+
+.card.placeholder-1{
+    background-image: url("../images/placeholder-1.jpeg");
+    background-size: fill; 
+}
+
+.card.placeholder-2{
+    background-image: url("../images/placeholder-2.jpeg");
+    background-size: fill; 
+}
+
+.card.placeholder-3{
+    background-image: url("../images/placeholder-3.jpeg");
+    background-size: fill; 
+}
+
+.card.placeholder-4{
+    background-image: url("../images/placeholder-4.jpeg");
+    background-size: fill;
+}
+
+.card.dateNight{
+  background-image: url("../images/night-sky.jpg");
+  background-size: fill;
+  flex: 1 1 40%;
+}
+
+.card.card-small{
+  flex: 1 1 40%; 
+}
+
+.my-work{
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.nav-button {
+  background: none;
+  border: none;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  margin-right: 2rem;
+}
+
+.profile-image{
+    width: 10rem;
+    height: 13rem;
+    object-fit: fill;
+    border: 0.5rem solid black;
+    margin: 2rem;
+}
+
+/*Id's*/
+#Site-Header, #Site-Footer{
+    color: black;
+    background-color: var(--main-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*psuedo elements*/
+
+.card:hover{
+  transition-property: background-image;
+  transition: all 1s;
+  opacity: 50%;
+
+}

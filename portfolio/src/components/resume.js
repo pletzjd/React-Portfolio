@@ -2,7 +2,9 @@ import React from "react";
 
 function Resume() {
 	return (
-        <h1>resume test</h1>
+		<div>
+			<h3>Resume</h3>
+		</div>
 	);
 }
 

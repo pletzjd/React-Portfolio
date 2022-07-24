@@ -44,7 +44,7 @@ function Portfolio() {
                 </div>
             </a>
 
-            <a className="card placeholder-4 card-small" href="https://pletzjd.github.io/Weather-Dashboard/">
+            <a className="card weather card-small" href="https://pletzjd.github.io/Weather-Dashboard/">
                 <header className="card-header">
                     <h5>Weather Dashboard</h5>
                 </header>

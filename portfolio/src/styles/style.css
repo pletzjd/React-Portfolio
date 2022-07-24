@@ -22,7 +22,7 @@ h1 {
     font-size: 3.5rem;
   }
   
-  h3 {
+  h3{
     font-size: 3rem;
   }
   
@@ -30,7 +30,7 @@ h1 {
     font-size: 2.5rem;
   }
   
-  h5 {
+  h5, a {
     font-size: 2rem;
   }
   
@@ -51,6 +51,7 @@ h1 {
 /*Variables*/
 :root{
   --main-color: teal;
+  --secondary-color: darkgrey;
 
 }
 
@@ -138,7 +139,7 @@ ul{
     background-size: 100%; 
 }
 
-.card.placeholder-4{
+.card.weather{
     background-image: url("../images/placeholder-4.jpeg");
     background-size: fill;
 }
@@ -151,6 +152,27 @@ ul{
 
 .card.card-small{
   flex: 1 1 40%; 
+}
+
+.form {
+  margin: 20px;
+}
+
+.form button{
+  background-color: var(--main-color);
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+.form input, .form textarea {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 25%;
+}
+
+.message {
+  height: 10rem;
 }
 
 .my-work{
@@ -187,10 +209,9 @@ ul{
 }
 
 /*psuedo elements*/
-
-.card-header:hover{
+.card-header:hover, .form button:hover{
   transition-property: background-image;
   transition: all 1s;
-  background-color: white;
-
+  background-color: var(--secondary-color);
 }
+

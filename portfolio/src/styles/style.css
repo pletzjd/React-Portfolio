@@ -225,6 +225,10 @@ ul{
 }
 
 /*Id's*/
+#about{
+  text-decoration: underline;
+}
+
 #Site-Header{
     color: black;
     background-color: var(--main-color);

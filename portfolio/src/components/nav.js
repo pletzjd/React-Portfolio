@@ -1,19 +1,34 @@
 import React from "react";
+let previousActiveId = 'about';
 
 function Nav(props) {
+
+
+	const setActiveTab = (e) => {
+		const { target } = e;
+		const tabId = target.id;
+
+		let previousActiveEl = document.getElementById(previousActiveId);
+		previousActiveEl.style = 'text-decoration: none';
+		previousActiveId = tabId;
+	
+		props.setActive(tabId);
+		target.style = 'text-decoration: underline'
+	  };
+
 	return (
 		<ul className="flex-row flex ">
 			<li>
-				<button className='nav-button' onClick={() => props.setActive('about')}> About Me</button>
+				<button id="about" className='nav-button' onClick={setActiveTab}> About Me</button>
 			</li>
 			<li>
-				<button className='nav-button' onClick={() => props.setActive('portfolio')}> Portfolio</button>
+				<button id="portfolio" className='nav-button' onClick={setActiveTab}> Portfolio</button>
 			</li>
 			<li>
-				<button className='nav-button' onClick={() => props.setActive('contact')}> Contact</button>
+				<button id="contact" className='nav-button' onClick={setActiveTab}> Contact</button>
 			</li>
 			<li>
-				<button className='nav-button' onClick={() => props.setActive('resume')}> Resume</button>
+				<button id="resume" className='nav-button' onClick={setActiveTab}> Resume</button>
 			</li>
 		</ul>
 	);

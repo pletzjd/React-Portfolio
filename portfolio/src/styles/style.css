@@ -158,6 +158,14 @@ ul{
   flex: 1 1 40%; 
 }
 
+.icon{
+  height: 3rem;
+  width: 3rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  margin-right: 1rem;
+}
+
 .form {
   margin: 20px;
 }
@@ -211,8 +219,13 @@ ul{
   margin-left: 5rem;
 }
 
+.spacer{
+  margin-bottom: 4rem;
+  color: white;
+}
+
 /*Id's*/
-#Site-Header, #Site-Footer{
+#Site-Header{
     color: black;
     background-color: var(--main-color);
     display: flex;
@@ -221,10 +234,20 @@ ul{
     align-items: center;
 }
 
+#Site-Footer{
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: var(--main-color);
+  color: black;
+  text-align: center;
+  margin-top: -500px;
+}
+
 /*psuedo elements*/
 .card-header:hover, .form button:hover{
   transition-property: background-image;
   transition: all 1s;
   background-color: var(--secondary-color);
 }
-

@@ -116,21 +116,26 @@ ul{
   align-self: center;
   border-radius: 2rem;
   background-color: var(--main-color);
+  margin-bottom: 0.5rem;
 }
 
-.card.placeholder-1{
-    background-image: url("../images/placeholder-1.jpeg");
-    background-size: fill; 
+.card.notepad{
+  background-image: url("../images/notepad.jpg");
+  background-size: fill; 
 }
 
-.card.placeholder-2{
-    background-image: url("../images/placeholder-2.jpeg");
-    background-size: fill; 
+.card.chatbox{
+    background-image: url("../images/chat.jpg"); 
+    background-size: 100%;
 }
 
-.card.placeholder-3{
-    background-image: url("../images/placeholder-3.jpeg");
-    background-size: fill; 
+.card.quiz{
+    background-image: url("../images/question-mark.png"); 
+}
+
+.card.schedule{
+    background-image: url("../images/schedule.jpg");
+    background-size: 100%; 
 }
 
 .card.placeholder-4{
@@ -183,9 +188,9 @@ ul{
 
 /*psuedo elements*/
 
-.card:hover{
+.card-header:hover{
   transition-property: background-image;
   transition: all 1s;
-  opacity: 50%;
+  background-color: white;
 
 }

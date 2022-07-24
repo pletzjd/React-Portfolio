@@ -63,7 +63,7 @@ a{
   margin: 1rem;
 }
 
-div h3{
+div h3, div h4, ul{
   margin-left: 2rem;
   margin-right: 2rem;
   margin-top: 2rem;
@@ -87,6 +87,10 @@ main{
 
 p {
   margin: 2rem;
+}
+
+span a{
+  color:blue
 }
 
 ul{
@@ -196,6 +200,15 @@ ul{
     object-fit: fill;
     border: 0.5rem solid black;
     margin: 2rem;
+}
+
+.proficiency{
+  display: block;
+  list-style: disc;
+}
+
+.proficiency li{
+  margin-left: 5rem;
 }
 
 /*Id's*/

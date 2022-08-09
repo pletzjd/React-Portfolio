@@ -11,16 +11,17 @@ function Resume() {
 			<ul className="proficiency">
 				<li>HTML</li>
 				<li>CSS</li>
+				<li>Bootstrap</li>
 				<li>JavaScript</li>
-				<li>Web APIs</li>
-				<li>Third Party APIs</li>
-				<li>Server Side APIs</li>
 				<li>Node.js</li>
 				<li>Express</li>
+				<li>socket.io</li>
 				<li>MySQL</li>
 				<li>MongoDB</li>
 				<li>Progressive Web Applications</li>
 				<li>React</li>
+				<li>MERN Stack</li>
+				<li>Apollo</li>
 			</ul>
 		</div>
 	);

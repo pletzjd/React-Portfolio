@@ -51,7 +51,6 @@ function Contact() {
 	  }
 	  alert(`Message Sent!`);
   
-	  // If everything goes according to plan, we want to clear out the input after a successful registration.
 	  setName('');
 	  setMessage('');
 	  setEmail('');

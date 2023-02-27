@@ -1,5 +1,5 @@
 import React from "react";
-import resume from '../files/Resume - Jordan Pletzer.docx.pdf'
+import resume from '../files/Resume - Jordan Pletzer.docx .pdf'
 
 function Resume() {
 	return (
@@ -15,7 +15,7 @@ function Resume() {
 				<li>JavaScript</li>
 				<li>Node.js</li>
 				<li>Express</li>
-				<li>socket.io</li>
+				<li>Socket.io</li>
 				<li>MySQL</li>
 				<li>MongoDB</li>
 				<li>Progressive Web Applications</li>

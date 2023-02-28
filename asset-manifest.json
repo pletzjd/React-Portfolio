@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.6e5ab757.css",
-    "main.js": "/React-Portfolio/static/js/main.8a2490a0.js",
+    "main.css": "/React-Portfolio/static/css/main.afe1e777.css",
+    "main.js": "/React-Portfolio/static/js/main.7a886d4c.js",
     "static/media/Jordan-Pletzer.jpg": "/React-Portfolio/static/media/Jordan-Pletzer.740b75486aa4e9b663d4.jpg",
     "static/media/night-sky.jpg": "/React-Portfolio/static/media/night-sky.a253886e4aac3cd7471f.jpg",
-    "static/media/Resume - Jordan Pletzer.docx.pdf": "/React-Portfolio/static/media/Resume - Jordan Pletzer.docx.bfb382624b0caeb3519b.pdf",
+    "static/media/Resume - Jordan Pletzer.docx .pdf": "/React-Portfolio/static/media/Resume - Jordan Pletzer.docx .dcddcfc301c5f506920f.pdf",
     "static/media/placeholder-4.jpeg": "/React-Portfolio/static/media/placeholder-4.0671091be85da7c5bd65.jpeg",
     "static/media/question-mark.png": "/React-Portfolio/static/media/question-mark.de2562c4aa08f6a74d3c.png",
     "static/media/chat.jpg": "/React-Portfolio/static/media/chat.b2458c54485cc64ca773.jpg",
     "index.html": "/React-Portfolio/index.html",
-    "main.6e5ab757.css.map": "/React-Portfolio/static/css/main.6e5ab757.css.map",
-    "main.8a2490a0.js.map": "/React-Portfolio/static/js/main.8a2490a0.js.map"
+    "main.afe1e777.css.map": "/React-Portfolio/static/css/main.afe1e777.css.map",
+    "main.7a886d4c.js.map": "/React-Portfolio/static/js/main.7a886d4c.js.map"
   },
   "entrypoints": [
-    "static/css/main.6e5ab757.css",
-    "static/js/main.8a2490a0.js"
+    "static/css/main.afe1e777.css",
+    "static/js/main.7a886d4c.js"
   ]
 }

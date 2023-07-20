@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useState, useRef } from "react";
+import emailjs from '@emailjs/browser';
 import { validateEmail } from '../utils/helpers';
 
 function Contact() {
@@ -7,6 +8,7 @@ function Contact() {
 	const [name, setName] = useState('');
 	const [message, setMessage] = useState('');
 	const [errorMessage, setErrorMessage] = useState('');
+	const form = useRef();
   
 	const handlefocusChange = (e) => {
 	  const { target } = e;
@@ -49,6 +51,14 @@ function Contact() {
 
 		return;
 	  }
+
+	  emailjs.sendForm(process.env.REACT_APP_emailjsServiceID, process.env.REACT_APP_emailjsTemplateID, form.current, process.env.REACT_APP_emailjsKey)
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+
 	  alert(`Message Sent!`);
   
 	  setName('');
@@ -59,7 +69,7 @@ function Contact() {
 	return (
 		<div>
 			<h3>Contact Me</h3>
-			<form className="form">
+			<form ref={form} className="form">
         <input
           value={name}
           name="name"

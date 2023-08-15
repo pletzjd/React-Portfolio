@@ -76,7 +76,7 @@ function Contact() {
 		  onChange={handleInputChange}
           onBlur={handlefocusChange}
           type="text"
-          placeholder="name"
+          placeholder="Name"
         />
 		<input
           value={email}
@@ -84,7 +84,7 @@ function Contact() {
 		  onChange={handleInputChange}
           onBlur={handlefocusChange}
           type="email"
-          placeholder="email"
+          placeholder="Email"
         />
         <textarea
           value={message}

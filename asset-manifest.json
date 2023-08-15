@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/React-Portfolio/static/css/main.afe1e777.css",
-    "main.js": "/React-Portfolio/static/js/main.433c5def.js",
+    "main.js": "/React-Portfolio/static/js/main.6f7b2074.js",
     "static/media/Jordan-Pletzer.jpg": "/React-Portfolio/static/media/Jordan-Pletzer.740b75486aa4e9b663d4.jpg",
     "static/media/night-sky.jpg": "/React-Portfolio/static/media/night-sky.a253886e4aac3cd7471f.jpg",
     "static/media/Resume - Jordan Pletzer.pdf": "/React-Portfolio/static/media/Resume - Jordan Pletzer.dcddcfc301c5f506920f.pdf",
@@ -10,10 +10,10 @@
     "static/media/chat.jpg": "/React-Portfolio/static/media/chat.b2458c54485cc64ca773.jpg",
     "index.html": "/React-Portfolio/index.html",
     "main.afe1e777.css.map": "/React-Portfolio/static/css/main.afe1e777.css.map",
-    "main.433c5def.js.map": "/React-Portfolio/static/js/main.433c5def.js.map"
+    "main.6f7b2074.js.map": "/React-Portfolio/static/js/main.6f7b2074.js.map"
   },
   "entrypoints": [
     "static/css/main.afe1e777.css",
-    "static/js/main.433c5def.js"
+    "static/js/main.6f7b2074.js"
   ]
 }

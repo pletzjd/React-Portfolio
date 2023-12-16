@@ -8,7 +8,7 @@ function Portfolio() {
         </header>
 
         <section className="my-work">
-            <a href="https://richardzhang01.github.io/date-night-generator/" className="card dateNight">
+            <a href="https://richardzhang01.github.io/date-night-generator/" className="card card-small dateNight">
                 <header className="card-header">
                     <h5 >Date Night Generator</h5>
                 </header>
@@ -54,12 +54,12 @@ function Portfolio() {
             </a>
 
 			
-            <a className="card notepad card-small" href="https://note-taker-pletzjd.herokuapp.com/">
+            <a className="card wod card-small" href="https://wod-dice-roller.onrender.com/">
                 <header className="card-header">
-                    <h5>Note Taker</h5>
+                    <h5>World of Darkness Dice Roller</h5>
                 </header>
                 <div className="card-header">
-                    <a href="https://github.com/pletzjd/Note_Taker">Repo</a>
+                    <a href="https://github.com/pletzjd/WoD-dice-roller/tree/feature/server-side">Repo</a>
                 </div>
             </a>
         </section>

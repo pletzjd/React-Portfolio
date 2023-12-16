@@ -63,6 +63,10 @@ a{
   margin: 1rem;
 }
 
+body{
+  background-color: darkgray;
+}
+
 div h3, div h4, ul{
   margin-left: 2rem;
   margin-right: 2rem;
@@ -104,29 +108,26 @@ ul{
 .card{
     display:flex;
     flex-direction: column;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     border: solid var(--main-color);
     border-radius: 2rem;
-    margin: 3rem 1rem 3rem 1rem;
     height: 400px;
+    width: 400px;
     align-items: center;
     justify-content: center;
+    gap: 0.5rem;
+    box-shadow: 5px 5px 5px black;
 }
 
 .card-header{
-  border: 0.4rem solid black;
+  border: 0.2rem solid black;
   padding: 0.5rem;
   width: fit-content;
-  justify-self: center;
-  align-self: center;
   border-radius: 2rem;
   background-color: var(--main-color);
-  margin-bottom: 0.5rem;
 }
-
-.card.notepad{
-  background-image: url("../images/notepad.jpg");
-  background-size: fill; 
+.card-header h5{
+  padding-top: .5rem;
 }
 
 .card.chatbox{
@@ -134,12 +135,17 @@ ul{
     background-size: 100%;
 }
 
+.card.dateNight{
+  background-image: url("../images/night-sky.jpg");
+  background-size: fill;
+}
+
 .card.quiz{
-    background-image: url("../images/question-mark.png"); 
+  background-image: url("../images/question-mark.png"); 
 }
 
 .card.schedule{
-    background-image: url("../images/schedule.jpg");
+    background-image: url("../images/schedule.webp");
     background-size: 100%; 
 }
 
@@ -148,14 +154,15 @@ ul{
     background-size: fill;
 }
 
-.card.dateNight{
-  background-image: url("../images/night-sky.jpg");
-  background-size: fill;
-  flex: 1 1 40%;
+.card.wod{
+  background-image: url("../images/WoD-logo.jpg");
+  background-size: 100%; 
 }
 
 .card.card-small{
-  flex: 1 1 40%; 
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 400;
 }
 
 .icon{
@@ -168,6 +175,9 @@ ul{
 
 .form {
   margin: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
 
 .form button{
@@ -176,13 +186,14 @@ ul{
   text-decoration: none;
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+  width: fit-content;
+  border: solid black 1px;
+  border-radius: 5px;
+  font-size: 15px;
 }
 
 .form input, .form textarea {
-  display: block;
-  margin-top: 5px;
-  margin-bottom: 5px;
-  width: 25%;
+  width: 300px;
 }
 
 .message {
@@ -192,7 +203,9 @@ ul{
 .my-work{
   display: flex;
   flex-wrap: wrap;
-
+  width: 100%;
+  justify-content: center;
+  gap: 1rem;
 }
 
 .nav-button {
@@ -241,19 +254,22 @@ ul{
 }
 
 #Site-Footer{
-  position:fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   width: 100%;
   background-color: var(--main-color);
   color: black;
   text-align: center;
-  margin-top: -500px;
+  margin-top: 3rem;
 }
 
-/*psuedo elements*/
+/*psuedo class*/
 .card-header:hover, .form button:hover{
-  transition-property: background-image;
   transition: all 1s;
   background-color: var(--secondary-color);
+}
+
+.my-work:last-child{
+  margin-bottom: 2.5rem;
 }

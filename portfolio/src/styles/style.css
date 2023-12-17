@@ -235,8 +235,7 @@ ul{
 }
 
 .spacer{
-  margin-bottom: 4rem;
-  color: white;
+  color: var(--secondary-color);
 }
 
 /*Id's*/
@@ -254,7 +253,7 @@ ul{
 }
 
 #Site-Footer{
-  position: relative;
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;

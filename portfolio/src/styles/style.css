@@ -218,11 +218,9 @@ ul{
 }
 
 .profile-image{
-    width: 10rem;
-    height: 13rem;
-    object-fit: fill;
-    border: 0.5rem solid black;
-    margin: 2rem;
+  float: left;
+  border: 0.25rem solid black;
+  margin: 2rem;
 }
 
 .proficiency{

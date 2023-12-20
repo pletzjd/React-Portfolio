@@ -3,9 +3,7 @@ import React from "react";
 function Portfolio() {
 	return (
         <div>
-		<header>
             <h3>Portfolio</h3>
-        </header>
 
         <section className="my-work">
             <a href="https://richardzhang01.github.io/date-night-generator/" className="card card-small dateNight">

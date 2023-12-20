@@ -11,7 +11,7 @@ import './styles/style.css'
 function App() {
   const [active, setActive] = useState('about')
   return (
-    <div>
+    <div className="body">
       <Header setActive = {setActive}/>
       <div>
         {active === 'about' && <About />}
@@ -19,8 +19,7 @@ function App() {
         {active === 'contact' && <Contact />}
         {active === 'resume' && <Resume />}
       </div>
-      <div className="spacer">.</div>
-      <div><Footer /></div>
+      <div className="footer"><Footer /></div>
     </div>
 
   );

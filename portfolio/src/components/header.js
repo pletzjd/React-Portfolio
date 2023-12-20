@@ -4,7 +4,7 @@ function Header(props) {
 
 	return (
 
-		<header id="Site-Header">
+		<header>
 			<h1>Jordan Pletzer</h1>
 			<Nav setActive={props.setActive} />
 		</header>

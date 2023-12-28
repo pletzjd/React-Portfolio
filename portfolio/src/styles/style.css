@@ -51,7 +51,7 @@ p {
 /*Variables*/
 :root{
   --main-color: teal;
-  --secondary-color: darkgrey;
+  --secondary-color: lightgrey;
 
 }
 
@@ -63,7 +63,7 @@ a{
 }
 
 body{
-  background-color: darkgray;
+  background-color: var(--secondary-color);
 }
 
 div h3, div h4, ul{
@@ -263,8 +263,7 @@ ul{
 
 /*psuedo class*/
 .card-header:hover, .form button:hover{
-  transition: all 1s;
-  background-color: var(--secondary-color);
+  background-color: rgb(117, 177, 177);
 }
 
 .my-work:last-child{

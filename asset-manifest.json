@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.afe1e777.css",
-    "main.js": "/React-Portfolio/static/js/main.6f7b2074.js",
-    "static/media/Jordan-Pletzer.jpg": "/React-Portfolio/static/media/Jordan-Pletzer.740b75486aa4e9b663d4.jpg",
+    "main.css": "/React-Portfolio/static/css/main.d6f7b4a4.css",
+    "main.js": "/React-Portfolio/static/js/main.336a7a82.js",
     "static/media/night-sky.jpg": "/React-Portfolio/static/media/night-sky.a253886e4aac3cd7471f.jpg",
     "static/media/Resume - Jordan Pletzer.pdf": "/React-Portfolio/static/media/Resume - Jordan Pletzer.dcddcfc301c5f506920f.pdf",
+    "static/media/WoD-logo.jpg": "/React-Portfolio/static/media/WoD-logo.8f2557075a16daf55411.jpg",
     "static/media/placeholder-4.jpeg": "/React-Portfolio/static/media/placeholder-4.0671091be85da7c5bd65.jpeg",
-    "static/media/question-mark.png": "/React-Portfolio/static/media/question-mark.de2562c4aa08f6a74d3c.png",
+    "static/media/schedule.webp": "/React-Portfolio/static/media/schedule.9aaebdcae66df97e8329.webp",
+    "static/media/Jordan-Pletzer.jpg": "/React-Portfolio/static/media/Jordan-Pletzer.4e47b53f1cdef159c17b.jpg",
+    "static/media/question-mark.png": "/React-Portfolio/static/media/question-mark.40b906f20b821ae38e8a.png",
     "static/media/chat.jpg": "/React-Portfolio/static/media/chat.b2458c54485cc64ca773.jpg",
     "index.html": "/React-Portfolio/index.html",
-    "main.afe1e777.css.map": "/React-Portfolio/static/css/main.afe1e777.css.map",
-    "main.6f7b2074.js.map": "/React-Portfolio/static/js/main.6f7b2074.js.map"
+    "main.d6f7b4a4.css.map": "/React-Portfolio/static/css/main.d6f7b4a4.css.map",
+    "main.336a7a82.js.map": "/React-Portfolio/static/js/main.336a7a82.js.map"
   },
   "entrypoints": [
-    "static/css/main.afe1e777.css",
-    "static/js/main.6f7b2074.js"
+    "static/css/main.d6f7b4a4.css",
+    "static/js/main.336a7a82.js"
   ]
 }

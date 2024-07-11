@@ -1,5 +1,5 @@
 import React from "react";
-import resume from '../files/Resume - Jordan Pletzer.pdf'
+import resume from '../files/Jordan-Pletzer-Resume.pdf'
 
 function Resume() {
 	return (

@@ -15,12 +15,12 @@ function Portfolio() {
                 </div>
             </a>
 
-            <a className="card chatbox card-small" href="https://coolchatbox.herokuapp.com">
+            <a className="card wedding card-small" href="https://kelseyandjustin.love/">
                 <header className="card-header">
-                    <h5>Cool Chatbox</h5>
+                    <h5>Wedding Site</h5>
                 </header>
                 <div className="card-header">
-                    <a href="https://github.com/zzzbia/Cool-Chatbox">Repo</a>
+                    <a href="https://github.com/pletzjd/Kelsey-And-Justin">Repo</a>
                 </div>
             </a>
 
@@ -52,12 +52,12 @@ function Portfolio() {
             </a>
 
 			
-            <a className="card wod card-small" href="https://wod-dice-roller.onrender.com/">
+            <a className="card cod card-small" href="https://wod-dice-roller.onrender.com/">
                 <header className="card-header">
-                    <h5>World of Darkness Dice Roller</h5>
+                    <h5>Chronicles of Darkness Dice Roller</h5>
                 </header>
                 <div className="card-header">
-                    <a href="https://github.com/pletzjd/WoD-dice-roller/tree/feature/server-side">Repo</a>
+                    <a href="https://github.com/pletzjd/CoD-dice-roller">Repo</a>
                 </div>
             </a>
         </section>

@@ -151,9 +151,12 @@ ul{
   padding-top: .5rem;
 }
 
-.card.chatbox{
-    background-image: url("../images/chat.jpg"); 
-    background-size: 100%;
+.card.wedding{
+    background-image: url("../images/wedding-rings.avif");
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    
 }
 
 .card.dateNight{
@@ -175,9 +178,10 @@ ul{
     background-size: fill;
 }
 
-.card.wod{
-  background-image: url("../images/WoD-logo.jpg");
-  background-size: 100%; 
+.card.cod{
+  background-image: url("../images/CoD-logo.png");
+  background-size: 100%;
+  background-color:white;
 }
 
 .card.card-small{
